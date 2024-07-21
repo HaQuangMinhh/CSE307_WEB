@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Problem 3 </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .frame-body {
+            position: relative;
+        }
+        .Go-to-top {
+            border: 1px solid black;
+            width: 60px;
+            height: 50px;
+            text-align: center;
+            border-radius: 50%;
+            cursor: pointer;
+            background-color: blue;
+            color: white;
+            font-size: 30px;
+
+            position: fixed;
+            bottom: 80px;
+            right: 50px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="frame-body" id="body-frame">
+        Mạng máy tính (tiếng Anh: computer network) là mạng viễn thông kỹ thuật số cho phép các nút mạng chia sẻ tài nguyên.
+    Trong các mạng máy tính, các thiết bị máy tính trao đổi dữ liệu với nhau bằng các kết nối (liên kết dữ liệu) giữa
+    các nút. Các liên kết dữ liệu này được thiết lập qua cáp mạng như dây hoặc cáp quang hoặc phương tiện không dây như
+    Wi-Fi.
+
+    Các thiết bị máy tính mạng làm nhiệm vụ khởi động, định tuyến và chấm dứt dữ liệu được gọi là các nút mạng.[1] Các
+    nút thường được xác định bởi địa chỉ mạng và có thể bao gồm máy chủ mạng như máy tính cá nhân, điện thoại và máy
+    chủ, cũng như phần cứng mạng như bộ định tuyến và chuyển mạch. Hai thiết bị như vậy có thể được cho là được kết nối
+    với nhau khi một thiết bị có thể trao đổi thông tin với thiết bị kia, cho dù chúng có kết nối trực tiếp với nhau hay
+    không. Trong hầu hết các trường hợp, các giao thức truyền thông dành riêng cho ứng dụng được xếp lớp (nghĩa là mang
+    theo trọng tải) so với các giao thức truyền thông chung khác. Bộ sưu tập công nghệ thông tin ghê gớm này đòi hỏi
+    phải có những người quản lý mạng lành nghề để giữ cho tất cả hệ thống mạng hoạt động tốt.
+
+    Mạng máy tính hỗ trợ một số lượng lớn các ứng dụng và dịch vụ như truy cập vào World Wide Web, video kỹ thuật số, âm
+    thanh kỹ thuật số, sử dụng chung các máy chủ lưu trữ và ứng dụng, máy in và máy fax, và sử dụng email và ứng dụng
+    nhắn tin tức thời cũng như nhiều ứng dụng khác. Mạng máy tính khác nhau về cách thức truyền tin được sử dụng để mang
+    tín hiệu, giao thức truyền thông để tổ chức lưu lượng mạng, kích thước của mạng, cấu trúc liên kết, cơ chế điều
+    khiển lưu lượng và ý định tổ chức mạng. Mạng máy tính nổi tiếng nhất là Internet.
+
+    Lịch sử của máy tính
+    Máy tính của thập niên 1940 là các thiết bị cơ-điện tử lớn và rất dễ hỏng. Sự phát minh ra transistor bán dẫn vào
+    năm 1947 tạo ra cơ hội để làm ra chiếc máy tính nhỏ và đáng tin cậy hơn.
+
+    Năm 1950, các máy tính lớn mainframe chạy bởi các chương trình ghi trên thẻ đục lỗ (punched card) bắt đầu được dùng
+    trong các học viện lớn. Điều này tuy tạo nhiều thuận lợi với máy tính có khả năng được lập trình nhưng cũng có rất
+    nhiều khó khăn trong việc tạo ra các chương trình dựa trên thẻ đục lỗ này.[2]
+
+    Vào cuối thập niên 1950, người ta phát minh ra mạch tích hợp (IC) chứa nhiều transistor trên một mẫu bán dẫn nhỏ,
+    tạo ra một bước nhảy vọt trong việc chế tạo các máy tính mạnh hơn, nhanh hơn và nhỏ hơn. Đến nay, IC có thể chứa
+    hàng triệu transistor trên nhiều mạch.
+
+    Vào cuối thập niên 1960, đầu thập niên 1970, các máy tính nhỏ được gọi là minicomputer bắt đầu xuất hiện.[3]
+
+    Năm 1977, công ty máy tính Apple Computer giới thiệu máy vi tính còn được gọi là máy tính cá nhân (personal computer
+    - PC).[4]
+
+    Năm 1981, IBM đưa ra máy tính cá nhân đầu tiên. Sự thu nhỏ ngày càng tinh vi hơn của các IC đưa đến việc sử dụng
+    rộng rãi máy tính cá nhân tại nhà và trong kinh doanh.
+
+    Vào giữa thập niên 1980, người sử dụng dùng các máy tính độc lập bắt đầu chia sẻ các tập tin bằng cách dùng modem
+    kết nối với các máy tính khác. Cách thức này được gọi là điểm nối điểm, hay truyền theo kiểu quay số. Khái niệm này
+    được mở rộng bằng cách dùng các máy tính là trung tâm truyền tin trong một kết nối quay số. Các máy tính này được
+    gọi là sàn thông báo (bulletin board). Các người dùng kết nối đến sàn thông báo này, để lại đó hay lấy đi các thông
+    điệp, cũng như gửi lên hay tải về các tập tin. Hạn chế của hệ thống là có rất ít hướng truyền tin, và chỉ với những
+    ai biết về sàn thông báo đó. Ngoài ra, các máy tính tại sàn thông báo cần một modem cho mỗi kết nối, khi số lượng
+    kết nối tăng lên, hệ thống không thề đáp ứng được nhu cầu.
+    hông được sử dụng kênh truyền này.
+
+    Mạng chuyển mạch thông báo (Message Switching Network)
+    Không giống chuyển mạch kênh, chuyển mạch thông báo không thiết lập liên kết dành riêng giữa hai trạm giao tiếp mà
+    thay vào đó mỗi thông báo được xem như một khối độc lập bao gồm cả địa chỉ nguồn và địa chỉ đích. Mỗi thông báo sẽ
+    được truyền qua các trạm trong mạng cho đến khi nó đến được địa chỉ đích, mỗi trạm trung gian sẽ nhận và lưu trữ
+    thông báo cho đến khi trạm trung gian kế tiếp sẵn sàng để nhận thông báo sau đó nó chuyển tiếp thông báo đến trạm kế
+    tiếp, chính vì lý do này mà mạng chuyển mạch thông báo còn có thể được gọi là mạng lưu và chuyển tiếp (Store and
+    Forward Network). Một ví dụ điển hình về kỹ thuật này là dịch vụ thư điện tử (e-mail), nó được chuyển tiếp qua các
+    trạm cho đến khi tới được đích cần đến.
+
+    Ưu điểm là cung cấp một sự quản lý hiệu quả hơn đối với sự lưu thông của mạng, bằng cách gán các thứ tự ưu tiên cho
+    các thông báo và đảm bảo các thông báo có độ ưu tiên cao hơn sẽ được lưu chuyển thay vì bị trễ do quá trình lưu
+    thông trên mạng; giảm sự tắc nghẽn trên mạng, các trạm trung gian có thể lưu giữ các thông báo cho đến khi kênh
+    truyền rảnh mới gửi thông báo đi; tăng hiệu quả sử dụng kênh truyền, với kỹ thuật này các trạm có thể dùng chung
+    kênh truyền.
+
+    Nhược điểm là độ trễ do việc lưu trữ và chuyển tiếp thông báo là không phù hợp với các ứng dụng thời gian thực, Các
+    trạm trung gian phải có dung lượng bộ nhớ rất lớn để lưu giữ các thông báo trước khi chuyển tiếp nó tới một trạm
+    trung gian khác (kích thước của các thông báo không bị hạn chế).
+
+    Mạng chuyển mạch gói (Packet Switching Network)
+    Bài chi tiết: Chuyển mạch gói
+    Kỹ thuật này được đưa ra nhằm tận dụng các ưu điểm và khắc phục những nhược điểm của hai kỹ thuật trên, đối với kỹ
+    thuật này các thông báo được chia thành các gói tin (packet) có kích thước thay đổi, mỗi gói tin bao gồm dữ liệu,
+    địa chỉ nguồn, địa chỉ đích và các thông tin về địa chỉ các trạm trung gian. Các gói tin riêng biệt không phải luôn
+    luôn đi theo một con đường duy nhất, điều này được gọi là chọn đường độc lập (iniễu.nó bao gồm các mạng con và nhiều
+    máy chính. Các mạng con thì được thiết kế dùng các minicomputer gọi là các IMP, hay Bộ xử lý mẫu tin giao diện, (từ
+    chữ Interface Message Processor) để bảo đảm khả năng truyền thông, mỗi IMP phải nối với ít nhất hai IMP khác và gọi
+    các phần mềm của các mạng con này là giao thức IMP-IMP. Các IMP nối nhau bởi các tuyến điện thoai 56 Kbps sẵn có.
+    ARPANET đã phát triển rất mạnh bởi sự ủng hộ của các đại học. Nhiều giao thức khác đã được thử nghiệm và áp dụng
+    trên mạng này trong đó quan trọng là việc phát minh ra giao thức TCP/IP dùng trong các LAN nối với ARPANET. Đến
+    1983, ARPANET đã chứng tỏ sự bền bỉ và thành công bao gồm hơn 200 IMP và hàng trăm máy chính. Cũng trong thập niên
+    1980, nhiều LAN đã nối vào ARPANET và thiết kế DNS, hay hệ thống đặt tên miền, (từ chữ Doma
+
+    </div>
+    
+
+
+    <div class="Go-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <script>
+        jQuery(document).ready(function() {
+            jQuery(window).scroll(function() {
+                if (jQuery(this).scrollTop() > 100) {
+                    $("#body-frame").fadeIn();
+                } else {
+                    $("#body-frame").fadeOut();
+                }
+                    
+
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
