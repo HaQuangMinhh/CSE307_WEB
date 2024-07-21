@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Mua hàng" 
+    <title><h1><center></center></h1></title>
+</head>
+
+<body>
+    <!--Updating Profile-->
+    <form action="" method="POST" enctype="multipart/form-data" >
+        <label for="userName" >Username:</label> <input type="text" name="userName" value="" id="userName" placeholder="Enter your username">  
+        <br>
+        Password: <input type="password" name="password" minlength="8" autofocus >
+        <br>
+        Phone number: <input type""text" name:"PhoneNumber" maxlength="10"
+        Bio : <textarea name="bio" id="" cols="0" rows="5">This is my bio </textarea>
+        <br>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Hobbies:</legend>
+            <input type="checkbox" name="hobbies[]" value="Dancing"> <label for="" >Dancing </label> <br>
+            <input type="checkbox" name="hobbies[]" value="Cooking"> Cooking <br>
+            <input type="checkbox" name="hobbies[]" value="Swimming" checked> Swimming <br>
+        </fieldset>
+        <br>
+        Title:
+        <br>
+        <input type="radio" name="" value="Mr." Checked > Mr. <br>
+        <input type="radio" name="" value="Ms."> Ms. <br>
+        <input type="radio" name="" value="Mrs."> Mrs. <br>
+        <br>
+        City/Province:
+        <br>
+        <select name="City" >
+            <option value="HCM">Hồ Chí Minh</option>
+            <option value="HaNoi">Hà Nội</option>
+            <option value="Hà Giang" selected="" > Hà Giang</option>
+        </select>
+        <br>
+        <input type="file" name="avatar" accept=".jpg, .png">
+        <br>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+</body>
+</html>
+
+
