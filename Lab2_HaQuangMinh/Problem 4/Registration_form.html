@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content=""> 
+    <title> Registration form </title>
+
+</head>
+
+
+
+
+<body>
+    <table border="1" cellspacing="0" cellpadding="10px" >
+        <caption>    </caption>
+
+        <colgroup>
+            <col style="width:150px">
+            <col style="width:500px">
+        </colgroup>
+
+        <thead>
+
+        </thead>
+        <tfoot>
+
+
+
+        </tfoot>
+        <tbody>
+            <form>
+                <table border="1" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <th><label for="Fullname"> Full Name* </label></th>
+                        <td> 
+                            <input type="name" maxlength="100" name="Fullname" id="Fullname" required="Please fill out this field" placeholder="Minh"/>
+
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <th><label for="email">Email*</label></th>
+                        <td> 
+                            <input type="email" maxlength="100" id="email" name="email" required="Please fill out this field" placeholder="....@eiu.edu.vn">
+                        
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="password">Password*</label></th>
+                        <td>
+                            <input type="password" maxlength="100" name="password" id="password" required="Please fill out this field" placeholder="............">    
+                        
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="CP">Confirm Password*</label> </th>
+                        <td>
+                            <input type="password" maxlength="100" name="CP" id="CP" required="Please fill out this field"placeholder="............">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="phoneNumber">Phone number*</label> </th>
+                        <td>
+                            <input type="phone" maxlength="100" name="phoneNumber" id="phoneNumber" required="Please fill out this field" placeholder="046547687454">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="address" >Address</label> </th>
+                        <td>
+                            <textarea type="text" name="address" id="address" required placeholder="Room 414.B11, school of CIT, EIU" required cols="40" rows="2" >
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="city"> City </label> </th>
+                        <td>
+                            <input type="City" name="city" id="city" placeholder= "Enter your City">
+                            <b><label for="state"> State </label>  </b>
+                            <input type="state" maxlength="100" name="state" id="state" placeholder="Enter your state" >
+
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <th><label for="zip">Zip/Postal Code </label></th>
+                        <td>
+                            <input type="zip" maxlength="100" name="zip" id="zip" placeholder="Enter your Zip/Postal Code">    
+                        
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="country">Country*</label> </th>
+                        <td>
+                            <select name="country" id="country" required>
+                                <option value="v0" selected> [Select your country] </option>
+                                <option value="Value1"> Viet Nam </option>
+                                <option value="Value2"> Australia </option>
+                                <option value="Value3"> England </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="birthday">Birthday </label></th>
+                        <td>
+                            <input type="date" maxlength="100" name="birthday" id="birthday" placeholder="mm/dd/yyyy">    
+                        
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th><label>Gender</label> </th>
+                        <td>
+                            <select name="gender">
+                                <option value="Value1"> Male </option>
+                                <option value="Value2"> Female </option>
+                                <option value="Value3"> Other </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label>Sarting date </label></th>
+                        <td>
+                            <input type="radio"  value="Spring" checked  /> 
+                            <label>Spring</label>    
+                            <input type="radio"  value="Summer" /> 
+                            <label>Summer</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="comments">Comments </label> </th>
+                        <td>
+                            <textarea name="comments" id="comments" cols="30" rows="3" placeholder="Please send us more information"  >
+
+
+                            </textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">   
+                            <!-- <button type="button" name="reset"/> Reset </button> -->
+                            <input type="reset" name="Resetform" value="Reset" />
+                            
+                            <input type="image" src="./Submit Button.png" name="image" width="100px" align="center" > 
+                            <!-- <a href="https://e.vnexpress.net/"><img src="./Submit Button.png" width="100px" name="image"></a> -->
+                        </td>
+                    </tr>
+                </table>
+            </form>    
+        </tbody>
+
+
+    </table>
+
+
+
+
+
+
+</body>
+
+
+
+</html>
