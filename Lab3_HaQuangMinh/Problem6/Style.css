@@ -1,0 +1,55 @@
+.frame1 {
+    display: inline-block;
+
+}
+
+
+
+.underh1 {
+    color: grey;
+    font-size: smaller;
+}
+.underh11 {
+    font-size: smaller;
+
+}
+
+.header0 {
+    color: blue;
+}
+ul li {
+    margin-bottom: 2%;
+}
+
+.container {
+    width: 500px;
+    border: 6px solid white;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-bottom: 10%;
+    font-family: sans-serif ;
+    display: inline-block;
+    margin-right: 10%; 
+    
+}
+
+.container1 {
+    width: 500px;
+    border: 6px solid white;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-bottom: 10%;
+    font-family: sans-serif ;
+    display: inline-block;
+    margin-bottom: 5%;
+    
+}
+
+
+.content {
+    margin-bottom: 10%;
+}
+
+border bottom 

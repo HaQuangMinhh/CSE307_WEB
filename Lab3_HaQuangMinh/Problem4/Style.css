@@ -1,0 +1,46 @@
+
+
+.container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #eee;
+}
+td {
+    vertical-align: top;
+}
+/* Your style */
+
+.content {
+    color: blue;
+}
+
+.content1 {
+    font-weight:bold;
+    color: red;
+}
+.header {
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    
+}
+.content3 {
+    color: grey;
+}
+
+.content4 {
+    color: orange;
+    font-weight:bold;
+}
+
+.active-dot {
+    display: inline-block;
+    background-color: green;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    margin: auto;
+}

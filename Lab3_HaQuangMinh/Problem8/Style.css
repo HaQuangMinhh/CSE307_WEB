@@ -1,0 +1,35 @@
+.image {
+    opacity: 0.5;
+    width: 700px;
+}
+
+.content {
+    position: absolute;
+    top: 5%;
+
+
+}
+.content1 {
+    border: 3px solid grey;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1% ;
+    position: relative;
+    box-sizing: border-box;
+
+    padding: 30px;
+    width: 600px;
+
+}
+.underh1 {
+
+
+}
+
+.button {
+    text-align: center;
+}
+table {
+    margin-left: 25%;
+
+}

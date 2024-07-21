@@ -1,0 +1,49 @@
+.golf-service-item-parent {
+    display: inline-block;
+    /* display: flex; */
+    position: relative;
+}
+
+.item1 {
+    width: 250px;
+    border: 5px solid #eee;
+    box-shadow: 0 0 10px blue; 
+    margin-bottom: 40px;
+    margin-left: 40px;
+    display: inline-block;
+    margin-right: 0;
+    
+    position: relative;
+
+    box-sizing: border-box;
+}
+
+.images {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detail-group {
+    padding: 15px 20px;
+
+}
+
+.content {
+    color: red;
+    font-weight: bolder;
+}
+
+.discount {
+    background-color: blue;
+    color: white;
+    width: 50px;
+    text-align: center;
+    top: 1%;
+    margin:auto;
+    position: absolute;
+    left: 260px; 
+    /* right: 30px; */
+    /* right: 2%; */
+    
+}
