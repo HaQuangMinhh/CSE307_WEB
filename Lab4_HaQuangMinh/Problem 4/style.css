@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    border: 2px solid blue;
+    width: 500px;
+
+}
+.parent {
+    border: 2px solid grey;
+    
+    /* đẩy ảnh cách vào */
+    padding: 15px;
+    
+    /* đẩy khung cách vào */
+    margin: 15px;
+    
+    box-sizing: border-box;
+    
+
+    /* phân ra 2 khu vực */
+    display: flex;
+
+}
+.picture {
+    /* bắt buộc */
+    width: 40%;
+    
+    /* tạo border xanh */
+    border: 2px solid blue;
+
+    box-sizing: border-box;
+
+}
+div img {
+    max-width: 100%;
+    width: 100%;
+
+}
+
+.child {
+    /* padding-right: 15px; */
+    /* bắt buộc */
+    width: 60%;
+    
+    box-sizing: border-box;
+    
+    padding-left: 5px;
+}
+
+.content {
+    box-sizing: border-box;
+    padding-bottom: 52px;
+    padding-left: 10px;
+}
+
+
+
+.button-group {
+    text-align: right;
+}
+
+button {
+    background-image: url(./assets-cached.jpg) ; 
+    color: white;
+    width: 55px;
+}
+.cach {
+    padding-top: 20px;
+
+}

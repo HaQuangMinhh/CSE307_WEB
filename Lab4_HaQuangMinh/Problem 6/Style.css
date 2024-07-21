@@ -1,0 +1,92 @@
+
+
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(49, 74, 113);
+    border-bottom: 5px solid orange;
+    font-size: 15px;
+}
+
+.menu-child {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+    
+    
+} 
+.menu-child-2 {
+    list-style: none; 
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+   
+}
+.menu-child-2 li {
+   
+    padding: 15px 20px;
+    
+    border-left: 1px solid white;
+    
+
+    position: relative;
+}
+.li-cuoi {
+    border-right: 1px solid white;
+}
+.menu-child-2 li a {
+    color: white;
+    text-decoration: none;
+    /* display: block; */
+    
+}
+/* thẻ i là icon nhỏ kế bên  */
+.menu-child-2 li a i {
+    font-size: 9px;
+    /* padding-left: 2px; */
+    margin-left: 5px;
+}
+.menu-child-2 li:hover {
+    background-color:rgba(244,159,35) ;
+}
+/* chỉnh màu */
+.menu-child-2 .li-dau {
+    background-color:rgba(244,159,35) ;
+}
+
+/* Qua phần cropdown */
+ul .box-submenu {
+    
+    width: 205px;
+    left: -1px;
+    top: 47px;
+
+    /* phải có cái này  */
+    position: absolute;
+    background-color: rgba(49, 74, 113);
+    color: white;
+    padding: 0px 0px;
+    list-style: none;
+
+}
+
+.box-submenu li {
+    border-bottom: 1px solid white;
+}
+/* Bỏ cái gạch chân cuối cùng của li  */
+.box-submenu li:last-child {
+    border: none;
+    
+}
+
+
+
+
+
+
