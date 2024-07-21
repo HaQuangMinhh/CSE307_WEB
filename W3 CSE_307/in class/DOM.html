@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+
+    <title> DOM </title>
+</head>
+
+<body>
+
+    <ul class="product-category" id="product-category"> </ul>
+
+    <div class="container-fluid">
+        <div class="row" id="serviceGroup">
+            <div class="col-md-4">
+                <h3 class="title"> Dịch vụ 1 </h3>
+                <p class="content"> Noi dung chi tiet 1 </p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="title"> Dịch vụ 2 </h3>
+                <p class="content"> Noi dung chi tiet 2 </p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="title"> Dịch vụ 3 </h3>
+                <p class="content"> Noi dung chi tiet 3 </p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="title"> Dịch vụ 4 </h3>
+                <p class="content"> Noi dung chi tiet 4 </p>
+            </div>
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit" id="loadData"> Load Data </button>
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    -->
+
+    <script>
+        
+        
+        
+        
+        // // Method 3 : 
+        // const printList3 = (arr) => {
+        //     let productCategoryString = " ";
+        //     for (const item of arr) {
+        //         productCategoryString += '<li><a href="">${item} </a></li>';
+        //     }
+        //     document.getElementById("product-category").innerHTML = productCategoryString;
+        // }
+
+        // function showServiceList(list) {
+        //     let str = "";
+        //     for (let item of list) {
+        //         str += `<div class="col-md-4">
+        //          <h3 class="title"> ${item.serviceName} </h3>
+        //          <p class="content"> ${item.serviceContent}  </p>
+        //      </div>`;
+        //     }
+        //     document.getElementById("serviceGroup").innerHTML = str;
+        // }
+
+        // function loadData() {
+        //     printList3(productList);
+        //     showServiceList(serviceList);
+        // }
+
+        // let loadDataEL = document.getElementById("loadData");
+
+    
+
+    </script>
+
+</body>
+
+</html>

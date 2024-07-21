@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo flexbox</title>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <style type="text/css">
+    
+    .parents {
+        display: flex;
+        /* flex-wrap: wrap-reverse; */
+        /* wrap là làm cho nó rớt xuống  */
+        flex-wrap: wrap;
+
+        border: 1px solid blue;
+        justify-content: space-between;
+
+
+    }
+
+    .item {
+        box-sizing: border-box;
+        width:30%;
+        
+        border: 1px solid #333;
+        margin-bottom: 30px; 
+        
+
+
+
+    }
+    @media (max-width:600px) {
+        .item {
+            width: 45%;
+
+        }
+
+    }
+    </style>
+</head>
+<body>
+    <div class="parents">
+        <div class="item"> 1 </div>
+        <div class="item"> 2 </div>
+        <div class="item"> 3 </div>
+
+        <div class="item"> 4 </div>
+        <div class="item"> 5 </div>
+        <div class="item"> 6 </div> 
+    </div>
+
+
+
+</body>
+
+
+
+</html>

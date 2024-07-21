@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Array</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <ul class="product-category" id="product-category"> </ul>
+
+    <div class="container-fluid">
+        <div class="row" id="serviceGroup">
+            <div class="col-md-4">
+                <h3 class="title"> Dịch vụ 1 </h3>
+                <p class="content"> Noi dung chi tiet 1 </p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="title"> Dịch vụ 2 </h3>
+                <p class="content"> Noi dung chi tiet 2 </p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="title"> Dịch vụ 3 </h3>
+                <p class="content"> Noi dung chi tiet 3 </p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="title"> Dịch vụ 4 </h3>
+                <p class="content"> Noi dung chi tiet 4 </p>
+            </div>
+        </div>
+    </div>
+
+    <button> </button>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+        // Method 1 : 
+        // function printList1(arr) {
+        //     let productCategoryString = " ";
+        //     for (const item of arr) {
+        //         productCategoryString += '<li><a href="">${item} </a></li>';
+        //     }
+        //     document.getElementById("product-category").innerHTML = productCategoryString;
+        // }
+        // // Method 2 : 
+        // const printList2 = function (arr) {
+        //     console.log(arguments);
+        //     let productCategoryString = " ";
+        //     for (const item of arr) {
+        //         productCategoryString += '<li><a href="">${item} </a></li>';
+        //     }
+        //     document.getElementById("product-category").innerHTML = productCategoryString;
+        // }
+
+        // Method 3 : 
+        // const printList3 = (arr) => {
+        //     let productCategoryString = " ";
+        //     for (const item of arr) {
+        //         productCategoryString += '<li><a href="">${item} </a></li>';
+        //     }
+        //     document.getElementById("product-category").innerHTML = productCategoryString;
+        // }
+
+
+        let productList = ["Asus", "Acer", "Samsung"];
+        // let productCategoryString = " ";
+
+
+
+        // productList.sort( (a, b) => {
+        //     if ( a == b) return 0;
+        //     if ( a > b) return 1;
+        //         return -1;
+        //     else
+        //         return 1;
+        // });
+
+        // xóa vị trí 
+        // let delPosition = productList.indexOf("Acer");
+        // if (delPosition != -1) {
+        //     productList.splice( delPosition , 1);
+        // }
+
+        // xóa vị trí của 1 chỗ 
+        //for (const index in productList) {
+        //    if (productList[index] == "Acer") {
+        //        productList.splice(index, 1);
+        //    }     
+        //}
+
+
+
+        // tìm chuỗi
+        // let 
+        // for (const index in productList) {
+        //    if (productList[index].toLowerCase().indexOf("acer".t) != -1) {
+        //         productList.splice(index, 1);
+        //     }     
+        // }
+        //document.getElementById("product-category").innerHTML = productCategoryString;
+
+
+        // console.log(productList.join(", "));
+
+        // đảo vị trí 
+        // productList.reverse();
+
+        // insert
+        // productList.push("HP","Dell");
+        // remove
+        // productList.pop();
+
+        // thêm vào đầu 
+        // productList.unshift("Apple", "Lenovo");
+        // gỡ cái đầu 
+        // productList.shift();
+
+        // show cái Dell vào dòng console
+        // productList[1] = "Dell";
+        // console.log(productList[1])
+
+
+        // For loop 
+        // for (var i = 0; i < productList.length; i++) {
+        //     // console.log(productList[i]);
+        //     productCategoryString += '<li><a href="">${productList[i]}</a></li>'
+
+        // }
+
+
+
+        // console.log('1. Using for-in loop')
+        // For-in loop 
+        // for (const index in productList) {
+        //     productCategoryString += '<li><a href="">${item}</a></li>'
+
+        //     // console.log(productList[item]);
+        // }
+        // document.getElementById("product-category").innerHTML = productCategoryString;
+
+
+
+        // console.log('2. Using for-of loop')
+        // For-of loop 
+        // let productCategoryString = " ";
+        // for (const item of productList) {
+        //     productCategoryString += '<li><a href="">${item}</a></li>'
+        //     // console.log(productList[index]);
+        // }
+        // document.getElementById("product-category").innerHTML = productCategoryString;
+
+        // Map 
+        // productList.map (
+        //     (item, index) => {
+        //         productCategoryString += '<li><a href="">${item}</a></li>';
+        //     }
+        // )
+
+        // lựa chọn. inner là bên trong nội dung = cái sản phẩm cần show.   
+        // document.getElementById("product-category").innerHTML = productCategoryString;
+
+        // Show Brand
+        // printList(productList);
+        // printList2(productList, 1,2,3,4);
+        // printList3(productList);
+
+
+        function showServiceList(list) {
+            let str = "";
+            for (let item of list) {
+                str += `<div class="col-md-4">
+                <h3 class="title"> ${item.serviceName} </h3>
+                <p class="content"> ${item.serviceContent}  </p>
+            </div>`;
+            }
+            document.getElementById("serviceGroup").innerHTML = str;
+
+        }
+
+        $("#serviceGroup").html("tddd");
+
+
+
+
+    </script>
+
+
+</body>
+
+
+
+</html>

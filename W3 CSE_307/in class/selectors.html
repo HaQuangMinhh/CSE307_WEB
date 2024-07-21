@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selector - Demo</title>
+    <meta charset="utf-8" >
+    <style type="text/css">
+        .menu {
+            /* remove bullets of ul */
+            list-style-type: none;
+        }
+        .menu > li {
+            /* li : col --> row */
+            display : inline-block;
+        }
+        .menu > list:hover a {
+            color: green;
+        }
+        .menu > li.has-child: after {
+            content: "v";
+        }
+
+        
+    </style>
+
+
+
+
+
+
+</head>
