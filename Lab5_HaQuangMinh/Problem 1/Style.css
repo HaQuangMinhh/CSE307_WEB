@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top-nav {
+    background-color: black;
+    color: white;
+}
+.container
+.row {
+    /* padding-top: 10px; */
+} 
+.top-header-1 i {
+    padding-right: 5px;
+    font-size: 14px;
+}
+.top-header-1 span {
+    opacity: 0.5;
+}
+.top-header-1 a {
+    text-decoration: none;
+    color: white;
+}
+.top-header-2 {
+    text-align: right;
+}
+.top-header-2 i {
+    padding-right: 5px;
+    font-size: 14px;
+}
+.top-header-2 span {
+    opacity: 0.5;
+}
+.top-header-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Qua logo */
+
+.mb-3 {
+    width: 290px;
+}
+.mb-3 button {
+    outline: none;
+}
+
+.media {
+    display: flex;
+
+}
+.hinh-tron  {
+    width: 45px ;
+    height: 45px ;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    padding: 8px;
+    color: white; 
+}
+.high-light {
+    color: red;
+}
+
+/* Qua menu */
+
+
+
+.menu-child {
+    background-color: rgb(100,44,144);
+    
+}
+.menu-child ul {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.menu-child li {
+    list-style: none;
+    padding: 10px 20px;
+
+    
+}
+.menu-child li:hover {
+    background-color: blue;
+}
+.menu-child a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
