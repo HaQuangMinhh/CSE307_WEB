@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dropdown Menu </title>
+
+    <style>
+        body {
+            /* nếu có background phủ nguyên trang web */
+            /* background-image: ; */
+            /* background size : cover */
+
+  
+        }
+        .container1 {
+            width: 1000px;
+            margin: 0px auto;
+
+        }
+        .logo {
+            padding: 5px ;
+        }
+        .logo img {
+            max-width: 100px;
+            height: auto;
+
+        }
+        
+        .header {
+            background-color: rgba(49,74,113);
+            
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
+        }
+        .main-menu {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .main-menu li {
+            position: relative;
+        }
+        .main-menu li a {
+            color: white;
+            display: block;
+            padding: 42px 12px;
+            text-decoration: none;
+        }
+
+        .main-menu ul .sub-menu {
+            position: absolute;
+            background-color: pink;
+            padding: 15px 0px;
+            list-style: none;
+            width: 200px;
+        }
+        
+        .main-menu ul .sub-menu a {
+            border-bottom: 1px solid;
+
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <nav class="container1">
+                <a href="" class="logo">
+                    <img src="./Vinamilk_logo.jpg" alt="vinamil logo">
+                </a>
+                <ul class="main-menu">
+                    <li><a href=""> About</a></li>
+                    <li><a href=""> HTML </a>
+                        <ul class="sub-menu">
+                            <li><a href=""> Menu 2.1 </a> </li>
+                            <li><a href=""> Menu 2.1 </a> </li>
+                            <li><a href=""> Menu 2.1 </a> </li>
+                            <li><a href=""> Menu 2.1 </a> </li>
+                        </ul>
+                    </li>
+                    <li><a href=""> Css </a></li>
+                    <li><a href=""> Php </a></li>
+                    <li><a href=""> Laravel </a></li>
+                    <li><a href=""> Boostrap </a></li>
+                    <li><a href="">Dịch vụ chuyên nghiệp</a></li>
+                    <li><a href=""> Tạo sản phẩm theo yêu cầu </a></li>
+
+                </ul>
+
+            </nav>            
+        </div>
+        <div class="wp-content">
+
+
+
+        </div>
+        <div class="footer">
+
+
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
