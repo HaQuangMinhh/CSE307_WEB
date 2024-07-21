@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Các loại phòng </title>
+
+    <style>
+        .Rooms-parent {
+            /* border: 2px solid blue; */
+            background-color: black;
+        }
+
+        .text-rooms {
+            /* border: 2px solid red; */
+            text-align: center;
+            margin-bottom: 50px;
+            padding-top: 20px;
+        }
+
+        .text-rooms h2 {
+            color: rgba(217, 193, 88);
+
+        }
+
+        .content-rooms {
+            line-height: 9px;
+
+        }
+
+        .content-rooms h3 {
+            margin-left: 20px;
+            font-size: 24px;
+
+        }
+
+        .content-rooms ul li {
+            list-style-type: none;
+            /* độ rộng giữa các line */
+            line-height: 30px;
+
+            color: rgba(135, 135, 135);
+
+
+        }
+
+        .content-rooms ul li::before {
+            content: ">";
+            margin-right: 10px;
+            color: rgba(202, 171, 79);
+        }
+    
+        .Cost {
+            /* border-radius: none; */
+             /* margin-left: 110px; */
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .Cost-night {
+            border: none;
+
+            /* độ rộng trong khung */
+            padding: 10px 15px;
+
+            background-color: rgba(202, 171, 79);
+            color: white;
+            font-weight: bolder;
+            font-size: 15px;
+            cursor: pointer;
+            
+        }
+
+        .subtitle-rooms {
+            color: white;
+        }
+
+        .Rooms-parent-items {
+            display: flex;
+            justify-content: center;
+        }
+
+        .item-rooms {
+            width: 20%;
+            box-sizing: border-box;
+
+            /* border: 2px solid blue; */
+
+            /* design */
+            background-color: white;
+            line-height: 10px;
+            display: inline-block;
+            margin: 0 10px;
+
+            /* cách dưới  */
+            margin-bottom: 60px;
+        }
+
+        .item-rooms img {
+            width: 100%;
+            max-width: 100%;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="Rooms-parent">
+        <div class="text-rooms">
+            <div>
+                <h2> CÁC LOẠI PHÒNG </h2>
+            </div>
+
+            <div class="subtitle-rooms"> Với sự lựa chọn phòng đa dạng, đáp ứng nhu cầu của nhiều đối tượng khác nhau,
+                khách sạn MONA luôn mang đến sự hài lòng cho quý khách đến từ khắp nơi trên đất nước.</div>
+        </div>
+
+        <div class="Rooms-parent-items">
+            <div class="item-rooms">
+                <img src="./images/standard-room.jpg" loading="lazy">
+
+                <div class="content-rooms">
+                    <h3> Standard Room </h3>
+                    <div class="ulli-location">
+                        <ul>
+                            <li> Số khách: <b> 2 người </b> </li>
+                            <li> Diện tích: <b> 20m<sup>2</sup> </b> </li>
+                            <li> Số giường: <b> 1 giường đôi </b> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Cost">
+                    <button type="cost" class="Cost-night"> Giá: $30 / đêm </button>
+                </div>
+            </div>
+
+            <div class="item-rooms">
+                <img src="./images/double-room.jpg" loading="lazy">
+
+                <div class="content-rooms">
+                    <h3> Double Room </h3>
+                    <ul>
+                        <li> Số khách: <b> 4 người </b> </li>
+                        <li> Diện tích: <b> 30m<sup>2</sup> </b> </li>
+                        <li> Số giường: <b> 2 giường đôi </b> </li>
+                    </ul>
+                </div>
+                <div class="Cost">
+                    <button type="cost" class="Cost-night"> Giá: $60 / đêm </button>
+                </div>
+            </div>
+
+            <div class="item-rooms">
+                <img src="./images/luxury-room.jpg" loading="lazy">
+
+                <div class="content-rooms">
+                    <h3> Luxury Room </h3>
+                    <ul>
+                        <li> Số khách: <b> 2 người </b> </li>
+                        <li> Diện tích: <b> 50m<sup>2</sup> </b> </li>
+                        <li> Số giường: <b> 1 giường đôi cỡ king </b> </li>
+                    </ul>
+                </div>
+                <div class="Cost">
+                    <button type="cost" class="Cost-night"> Giá: $30 / đêm </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

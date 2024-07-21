@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> News </title>
+
+    <style>
+        .Khung {
+            border: 2px solid blue;
+            
+
+        }
+
+        .news-title {
+            /* border: 2px solid blue; */
+            text-align: center;
+            color: rgba(203, 178, 75);
+        }
+        .inside-news {
+            border: 2px solid red;
+            display: inline-block;    
+        }
+
+        .news-parent {
+        
+
+        }
+
+        .item-news {
+            width: 22%;
+            box-sizing: border-box;
+
+            border: 1px solid;
+            box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.75);
+            ;
+
+        }
+
+        .item-news img {
+            width: 100%;
+            max-width: 100%;
+
+        }
+
+        .item-news h4 {
+            margin-top: 2px;
+            font-size: 18px;
+            padding-left: 10px;
+
+            border-bottom: 1px solid rgba(209, 209, 209);
+
+        }
+
+        .news-content p {
+            padding-left: 10px;
+            padding-right: 10px;
+            color: rgba(196, 196, 196);
+        }
+
+        .news-box {
+            padding-left: 10px;
+            padding-bottom: 15px;
+        }
+
+        .news-box button {
+            width: 80px;
+            height: 30px;
+
+            border: 2px solid rgba(208, 187, 95);
+            color: rgba(208, 187, 95);
+            background-color: white;
+        }
+
+        .item-news-2 {
+            width: 22%;
+            box-sizing: border-box;
+            border: 2px black;
+
+            margin-top: 30px;
+        }
+
+        .item-news-2 img {
+            width: 100%;
+            max-width: 100%;
+            position: relative;
+        }
+
+        .item-news-2 p {
+            color: white;
+            position: absolute;
+
+            font-size: 15px;
+
+            /* chỉnh vị trí thả ảnh */
+            bottom: 190px;
+            left: 50px;
+        }
+
+        .Khung-2 {}
+    </style>
+
+</head>
+
+<body>
+    <div class="Khung">
+        <div class="news-title">
+            <h3> TIN TỨC </h3>
+        </div>
+        
+        <div class="inside-news">
+            <div class="news-parent">
+                <div class="item-news">
+
+                    <img src="./images/news-5.png" loading="lazy">
+
+                    <div class="news-content">
+
+                        <h4> Khu nghỉ dưỡng MONA tại Bình Dương </h4>
+
+                        <p> Được thiết kế bởi top 5 kiến trúc sư lừng danh thế giới Bill Bensley,được kết tinh giữa
+                            những giá trị thẩm mỹ, văn hóa đặc trưng của người Việt và sự sang trọng... </p>
+
+                        <div class="news-box">
+                            <button type="detail"> CHI TIẾT </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-news-2">
+
+                <img src="./images/news-2.jpg" loading="lazy">
+                <p> Khu nghỉ dưỡng cao cấp Phú Quốc </p>
+            </div> 
+            
+        
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

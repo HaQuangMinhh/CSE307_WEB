@@ -1,0 +1,596 @@
+
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   
+}
+body header {
+    font-family: Merriweather;
+}
+
+header {
+    
+
+    /* Design */
+    background-color: black;
+    color: white;
+}
+header .container1 {
+    
+    /* làm rộng chiều dọc */
+    height: 40px;
+    border-bottom: 1px solid yellow;
+
+}
+header .top-header1 {
+    display: inline-block;
+    
+    padding-left: 7%;
+    
+
+    /* Design */
+    font-size: 13.5px;
+
+}
+header .top-header2 {
+    display: inline-block;
+    
+    
+    /* Design */
+    padding-left: 8%;
+    padding-right: 0%;
+    font-size: 13.5px;
+
+}
+
+header .top-header3 {
+    display: inline-block;
+    
+    padding-right: 5%;
+    padding-left: 38%;
+    
+
+    /* Design */
+    font-size: 13.5px;
+    color: yellow;
+}
+.top-header1 i {
+    color: yellow;
+    padding-right: 5px;
+}
+.top-header2 i {
+    color: yellow;
+    padding-right: 5px;
+}
+.top-header3 i {
+    margin-right: 5px;
+}
+
+
+/* Qua Khu */
+.second-header {
+    
+    
+}
+.nav-second-header {
+    
+    margin-left: 12%;
+    
+    display: flex;
+}
+nav {
+    display: flex;
+    
+    
+}
+.div-second-header {
+    padding-bottom: 15px;
+}
+.second-header img {
+    max-width: 110px;
+    height: auto;
+    
+    
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    margin-left: 250px;
+
+    /* border: 1px solid yellow; */
+
+    /* Design */
+    font-size: 13.5px;
+    color: grey;
+   
+}
+.menu li a {
+    color: rgba(104,104,104);
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+}
+.menu li a:hover {
+    color: yellow;
+}
+
+.menu li {
+    list-style-type: none;
+    
+    
+    padding-top: 20px; 
+    
+    /* giãn từng cái li */
+    margin-left: 10px ;
+    
+}
+.tim-kiem {
+    /* top padding cách  */
+    padding: 8px;
+    padding-top: 23px;
+}
+.menu input {
+    height: 25px;
+}
+.tim-kiem i {
+    /* hinh kinh lup */
+    padding-left: 6px;
+
+}
+
+
+
+
+
+/* Qua khu background lớn  */
+.Background-parent img {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.title h1 {
+    background-color: rgba(255,255,255,0.7);
+    color: rgba(196,158,53);
+    position: absolute;
+    
+    top: 450px;
+    left: 337px;
+    font-size: 60px;
+    
+    /* top , right , bottom , left */
+    padding: 10px 25px 10px 22px;
+    
+    
+}
+.title p {
+    background-color: rgba(255,255,255,0.7);
+    position: absolute;
+    width: 930px;
+
+    text-align: center;
+    
+
+    top: 560px;
+    left: 220px;
+    font-size: 18px;
+    padding: 15px 12px 15px 8px;
+    line-height: 1.4 ;
+}
+
+/* Qua khu phân chia 2 khu vực  */
+.chia-2-khung {
+    display: flex;
+    padding: 50px 100px 50px 100px;
+}
+
+.move-khung {
+    width: 50%;
+    padding-top: 50px;
+}
+.WelcomeMona {
+    
+    /* border: 1px solid yellow; */
+}
+
+.WelcomeMona p {
+    color: rgb(182, 182, 182);
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    line-height: 1.8;
+    font-size: larger;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.WelcomeMona h3 {
+    color: rgb(182, 182, 182);
+    text-align: center;
+    font-size: 28px;
+
+    margin: 0;
+    padding: 0 ;
+    padding-bottom: 5px;
+}
+
+.WelcomeMona h2 {
+    text-align: center;
+    font-size: 37px;
+
+    margin: 0;
+    padding: 0;
+
+}
+.tim-hieu-them {
+    padding-top: 10px;
+    padding-left: 41%;
+    cursor: pointer;
+}
+.tim-hieu-them button {
+    background-color: white;
+    color: rgba(205,182,84);
+    width: 130px;
+    height: 35px;
+    font-weight: bolder;
+    
+    padding-top: 4px;
+    border: 3px solid rgba(205,182,84);
+    border-top: 4px solid rgba(205,182,84);
+    border-right: 4px solid rgba(205,182,84);
+    
+}
+
+.imghotel {
+    width: 50%;
+    /* border: 1px solid red; */
+    max-width: 100%;
+
+}
+
+.imghotel img {
+    width: 550px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+/* Qua Khu Service  */
+.Service {
+    background-color: rgb(32, 32, 32);
+    padding-bottom: 60px;
+    
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.Title-service {
+
+    /* Design */
+    /* cách trên đầu */
+    padding-top: 8px;
+
+
+
+}
+
+.Title-service h3 {
+    color: rgb(203, 184, 80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.Title-service p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 15px;
+
+
+}
+/* parent để chỉnh vào giữa  */
+.service-parent {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+
+}
+/* Product từng cái  */
+.container-item1 {
+    /* border: 2px solid blue;  */
+
+    /* For layout */
+    width: 33.33%;
+    box-sizing: border-box;
+
+    display: inline-block;
+
+    /* design */
+    background-color: white;
+
+    /* position: relative; */
+    margin: 0 15px;
+
+    
+}
+
+.container-item1 img {
+    /* thẻ ảnh thì cần width and max-width */
+    /* width với max-width làm vừa 1 ô */
+    width: 100%;
+    max-width: 100%;
+
+
+    /* border: 2px solid red; */
+
+}
+
+.detail-group-service {
+    /* padding: 15px 20px; */
+    padding-left: 15px;
+    padding-right: 20px;
+
+
+    text-align: center;
+
+}
+.detail-group-service h3 {
+    padding-top: 9px;
+    font-weight: bold;
+}
+.detail-group-service p {
+    color: rgba(155, 155, 155);
+    
+}
+
+/* tạo nút button */
+.buttons {
+    display: flex;
+    
+
+}
+
+/* tạo button riêng để làm riêng  */
+.buttons-1 {
+    display: flex;
+    padding-top: 48px;
+}
+.buttons-1 button {
+    /* tạo cho rộng cái ô ra */
+    padding: 9px 9px;
+
+
+    background-color: rgba(128, 128, 128);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+    /* mỗi nút mở rộng để lắp đầy thong gian chiều ngang */
+    flex: 1;
+
+}
+.buttons-1 .button1 {
+    border-right: 1px solid white;
+}
+
+
+/* ở trên là tách ra làm từng button   */
+
+.buttons button {
+    /* tạo cho rộng cái ô ra */
+    padding: 9px 9px;
+
+
+    background-color: rgba(128, 128, 128);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+    /* mỗi nút mở rộng để lắp đầy thong gian chiều ngang */
+    flex: 1;
+}
+
+.buttons .button1 {
+    border-right: 1px solid white;
+}
+
+
+
+
+/* Qua Khu MODE */
+
+
+
+
+
+
+
+
+/* Qua Khu Rooms*/
+
+.Rooms-parent {
+    /* border: 2px solid blue; */
+    background-color: black;
+}
+
+.text-rooms {
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.text-rooms h2 {
+    color: rgba(217, 193, 88);
+
+}
+
+.content-rooms {
+    line-height: 9px;
+
+}
+
+.content-rooms h3 {
+    margin-left: 20px;
+    font-size: 24px;
+
+}
+
+.content-rooms ul li {
+    list-style-type: none;
+    /* độ rộng giữa các line */
+    line-height: 30px;
+
+    color: rgba(135, 135, 135);
+
+
+}
+
+.content-rooms ul li::before {
+    content: ">";
+    margin-right: 10px;
+    color: rgba(202, 171, 79);
+}
+
+.Cost {
+    /* border-radius: none; */
+     /* margin-left: 110px; */
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Cost-night {
+    border: none;
+
+    /* độ rộng trong khung */
+    padding: 10px 15px;
+
+    background-color: rgba(202, 171, 79);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.subtitle-rooms {
+    color: white;
+}
+
+.Rooms-parent-items {
+    display: flex;
+    justify-content: center;
+}
+
+.item-rooms {
+    width: 20%;
+    box-sizing: border-box;
+
+    /* border: 2px solid blue; */
+
+    /* design */
+    background-color: white;
+    line-height: 10px;
+    display: inline-block;
+    margin: 0 10px;
+
+    /* cách dưới  */
+    margin-bottom: 60px;
+}
+
+.item-rooms img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+
+
+/* Qua khu Contact-rooms */
+.background-parent {
+    position: relative;
+
+}
+
+.background-parent img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.Booking-room-contact {
+    display: flex;
+    justify-content: center;
+
+    /* border: 2px solid blue; */
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 700px;
+    
+
+    /* giúp cho ở trên ảnh */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* tranform để vào giữa */
+
+
+
+}
+
+form {
+    margin-bottom: 5%;
+}
+
+.Booking-room-contact table caption {
+    color: rgba(210, 185, 83);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 3%;
+    margin-top: 6%;
+
+}
+
+table tr td {
+    color: white;
+}
+
+input {
+    width: 170px;
+    height: 20px;
+}
+select {
+    width: 175px;
+    height: 25px;
+}
+
+
+.Submit {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.submit {
+    /* độ ngang và độ thẳng của input */
+    width: 170px;
+    height: 30px;
+    
+   
+    background-color: rgba(205, 182, 84);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+
+}

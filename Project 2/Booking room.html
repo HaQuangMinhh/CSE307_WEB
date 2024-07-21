@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Liên hệ đặt phòng </title>
+
+    <style>
+        .background-parent {
+            position: relative;
+
+        }
+
+        .background-parent img {
+            width: 100%;
+            max-width: 100%;
+
+        }
+
+        .Booking-room-contact {
+            display: flex;
+            justify-content: center;
+
+            /* border: 2px solid blue; */
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 700px;
+            
+
+            /* giúp cho ở trên ảnh */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* tranform để vào giữa */
+ 
+
+
+        }
+
+        form {
+            margin-bottom: 5%;
+        }
+
+        caption {
+            color: rgba(210, 185, 83);
+            font-weight: bolder;
+            font-size: 20px;
+            margin-bottom: 3%;
+            margin-top: 6%;
+
+        }
+
+        table tr td {
+            color: white;
+        }
+
+        input {
+            width: 170px;
+            height: 20px;
+        }
+        select {
+            width: 175px;
+            height: 25px;
+        }
+
+
+        .Submit {
+            text-align: center;
+            padding-top: 20px;
+
+        }
+
+        .submit {
+            /* độ ngang và độ thẳng của input */
+            width: 170px;
+            height: 30px;
+            
+           
+            background-color: rgba(205, 182, 84);
+            border: none;
+            color: white;
+            font-weight: bolder;
+            cursor: pointer;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="background-parent">
+
+        <img src="./images/booking-background.jpg" alt="background-booking" loading="lazy">
+
+        <div class="Booking-room-contact">
+            <form>
+                <table border="0">
+                    <caption> LIÊN HỆ ĐẶT PHÒNG </caption>
+
+                    <tr>
+                        <td><label for="name"> Họ tên </label> </td>
+                        <td><label for="Phonenumber">Số điện thoại </label></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="name" id="name" class="name" maxlength="50"
+                                required="Please fill out this field" placeholder=" Full name"> </td>
+
+                        <td> <input type="number" id="Phonenumber" class="Phonenumber" maxlength="15"
+                                required="Please fill out this field" placeholder=" Phone number" </td>
+
+                    </tr>
+                    <tr>
+                        <td> Ngày đến </td>
+                        <td> Ngày đi </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="date"> </td>
+                        <td> <input type="date"> </td>
+                    </tr>
+                    <tr>
+                        <td> Số người </td>
+                        <td> Chọn phòng </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="number" placeholder="..." </td>
+                        <td>
+                            <select name=" Choose-room">
+                                <option value=""> Standard Room </option>
+                                <option value=""> Double Room </option>
+                                <option value=""> Luxury Room </option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div class="Submit">
+                    <input type="submit" class="submit" value="GỬI" >
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
