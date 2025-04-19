@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction Javascript</title>
 </head>
+
 <body>
     <!-- alert : thông báo -->
     <!-- xuất giá trị của biến 
@@ -19,7 +21,7 @@
     <script>
         // alert("xin chào");
         // prompt("mời nhập tên của bạn :");
-        
+
         // var myName = "Hà Quang Minh";
         // console.log("tên của bạn là: " + myName);
 
@@ -46,15 +48,165 @@
         // let diemAnh = Number(prompt("môn toán"));
 
         // let dtb = (diemtoan +diemVan+diemAnh) / 3;
-        
+
         // console.log(dtb.toFixed(2));
 
-        // 16.4 
 
 
+        //  Ép kiểu dữ liệu 
+        //  sử dụng hàm prompt toàn bộ là hàm string
+        // let numberA = prompt("Nhập dữ liệu");
+        // // check kiểu loại 
+        // console.log(typeof numberA);
+        // //  ch ép kiễu
+        // let numberB = 10;
+        // console.log(typeof numberB);
+        // // bien number B là number
+        // // cộng A Và B 
+        // let kq = numberA + numberB;
+        // console.log(`kết quả A + B = ${kq}`);
+        // // Ép kiểu 
+        // let numberC = parseInt(prompt("Mời nhập"));
+        // console.log(numberC);
+        // console.log(typeof numberC);
+        // // Ép kiểu dùng Number 
+        // let numberD = Number(prompt("Mời nhập"));
+        // console.log(numberD);
+        // console.log(typeof numberD);
+        // console.log(numberD + numberB);
+
+        // Bài tập 12 - kiem tra quy 
+        // bài tập 12  Viết chương trình nhập vào tháng trong năm, cho biết tháng đó thuộc quý mấy 
+        // Gợi ý
+        // 1 năm có 4 quý, mỗi quý 3 tháng : 
+        //  Quý 1 : tháng 1,2,3
+        // Quý 2 : 4 5 6 
+        // Quý 3 : 7 8 9 
+        // Quý 4 : 10 11 12
+        // solution
+        // let thang = parseInt(prompt("nhập dữ liệu"));
+
+        // if (thang >= 1 && thang <= 3) {
+        //     console.log("thang", thang, "thuộc quý 1 " );
+        // } else if ( thang >= 4 && thang <= 6 ) {
+        //     console.log("thang", thang, "thuộc quý 2 " );
+        // } else if ( thang >= 7 && thang <= 9 ) {
+        //     console.log("thang", thang, "thuộc quý 3 " );
+        // } else if ( thang >= 10 && thang <= 12 ) {
+        //     console.log("thang", thang, "thuộc quý 4 " );
+        // }
+        // else {
+        //     console.log("Wrong input" );
+        // }
+
+
+//  toán tử 3 ngôi ( Ternary Operator)
+            // let numberA = 20;
+            // let message = numberA >= 0 ? "số dương" : "số âm";
+            // console.log(message);
+//  bài tập ( 17.2 trên youtube ( ga lai lap trinh) )
+            // let numberA = parseFloat(prompt("nhập số"));
+            
+            // let xeploai = numberA >= 8 ? "Giỏi" : (numberA >=6.5 ? "Khá" : (numberA >= 5 ? "Trung Bình" : "Yếu"));
+            // console.log (`xếp loại của học sinh là : ${xeploai}`);
+
+
+
+
+
+//  Truthy and Falsy values 
+            //  nhớ lại ép kiểu number, parseInt , parseFloat
+        //  google : truthy js mdn
+
+
+// Switch case JS
+            // let number = 4; 
+            // switch ( number % 2 ) {
+            //     case 0: 
+            //         console.log("so chan");
+            //         break;
+            //     case 1 : 
+            //         console.log("so le");
+            //         break;
+            //     default :
+            //         console.log("không phai so");
+            // }
+//  bài tập switch case ( 19.1 trên youtube)
+            // dùng \n để xuống dòng
+            // let Choice = Number(prompt(`
+            // Chọn cách tìm kiếm : 
+            //     1. Tìm theo tên 
+            //     2. Tìm theo tác giả
+            //     3. tìm theo nhà xuất bản 
+            //     4. Tìm theo tiêu đề 
+            // `));
+
+            // switch (Choice) {
+            //     case 1: 
+            //         alert("Bạn chọn tìm theo tên");
+            //         break;
+            //     case 2: 
+            //         alert("Bạn chọn tìm theo tác giả");
+            //         break;
+            //     case 3: 
+            //         alert("Bạn chọn tìm theo nhà xuất bản ");
+            //         break;
+            //     case 4: 
+            //         alert("Bạn chọn tìm theo tiêu đề ");
+            //         break;
+
+            //     default:
+            //         alert("Wrong input");
+            //         break;
+            // }
+            // finish
+
+
+// while loop 
+        // let i = 1;
+        // while ( i <= 5) {
+        //     console.log(i)
+        //     i++; 
+        // }
+
+        // ví dụ 
+        // let n = prompt("Nhập vào n (1-99)");
+        // console.log(n);
+
+        // while(isNaN(n) || n < 1 || n > 99 || n % 1 !== 0 ) {
+        //     n = Number(prompt("Nhập lại"));
+            
+        // }
+        // alert("bạn đã nhập số n : " + n );
+
+//  do white loop 
+            // let i = 1;
+            // do {
+            //     console.log(i);
+            //     i++;
+            // } while ( i <= 10);
+//  do while nó thực hiện 1 lần r ngưng 
+// finish 
+
+
+//  while (true) tạo ra 1 vòng lặp vô tận. nhớ thêm điều kiện if 
+        // let n = 0;
+        // while(true) {
+        //     n++;
+        //     alert(n);
+        //     if (n == 5) {
+        //         break;
+        //     }
+        // }
+// finish
+
+
+//  For loop 
+            // bài 23 
 
 
     </script>
 
 </body>
+
 </html>
