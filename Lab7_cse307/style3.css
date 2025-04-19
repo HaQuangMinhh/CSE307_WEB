@@ -1,0 +1,53 @@
+.center-alert{
+    padding-left: 400px;
+}
+.alert-red {
+    padding: 20px;
+    background-color: red;
+    color: white;
+    width: 600px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.alert-green {
+    padding: 20px;
+    background-color: green;
+    color: white;
+    width: 600px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.alert-blue {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    width: 600px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.alert-orgare {
+    padding: 20px;
+    background-color: orange;
+    color: white;
+    width: 600px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.closebtn:hover {
+    color: black;
+}
